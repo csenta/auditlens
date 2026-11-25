@@ -1,5 +1,7 @@
 # AuditLens: Context-Aware Code Vulnerability Auditor with Proof-of-Exploit
 
+> **Status:** prototype. A personal security-research project, not a production product. Expect rough edges; issues and pull requests are welcome.
+
 A static application security testing (SAST) and reachability auditor designed to bridge the gap between static taint analysis and real exploitability.
 
 ---
@@ -74,3 +76,7 @@ curl -X POST 'http://localhost:5000/api' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'target=127.0.0.1; id #'
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
